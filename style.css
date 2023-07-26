@@ -26,7 +26,10 @@ main
 
 .out
 {
-  background-image: url('');
+  background-image: url('https://avatars.mds.yandex.net/i?id=db84d9d2abc3126676999bc7e819e0d4fcc6a873-5234741-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   min-width: 100%;
   height: 100%;
   color: white;
@@ -36,8 +39,7 @@ main
 
 h1
 {
-
-  font-family: 'Satisfy', cursive;
+   font-family: 'Satisfy', cursive;
   overflow: hidden;
   width: 70%;
   height: 10vh;
@@ -55,6 +57,10 @@ h1
             0 0 0.8rem #bc13fe,
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes pulsate {
