@@ -6,7 +6,7 @@
 
 body
 {
-  background: rgb(220, 196, 196);
+  background: rgb(0, 0, 0);
 }
 
 main
@@ -122,7 +122,7 @@ padding-top: 2em;
 }
 .format
 {
-  background: white;
+  background: rgb(0, 0, 0);
   height: 50vh;
 }
 
@@ -174,8 +174,6 @@ border: 1px solid white;
   
   background: #E62E2D;
   margin: 10px;
-
-
 }
 
 .favcolor2
@@ -183,7 +181,7 @@ border: 1px solid white;
   width: 50px;
   height: 50px;
 border: 1px solid white;
-    background: #567DA7;
+    background: blue;
   margin: 10px;
 }
 
@@ -192,7 +190,7 @@ border: 1px solid white;
   width: 50px;
   height: 50px;
 border: 1px solid white;
-  background: #E7DB57;
+  background: yellow;
   margin: 10px;
 }
 
@@ -205,11 +203,47 @@ border: 1px solid white;
   margin: 10px;
 }
 
+.favcolor5
+{
+  width: 50px;
+  height: 50px; 
+border: 1px solid white;
+  background: orange;
+  margin: 10px;
+}
+.favcolor6
+{
+  width: 50px;
+  height: 50px; 
+border: 1px solid white;
+  background: white;
+  margin: 10px;
+}
+.favcolor7
+{
+  width: 50px;
+  height: 50px; 
+border: 1px solid white;
+  background: green;
+  margin: 10px;
+}
+
+.favcolor8
+{
+  width: 50px;
+  height: 50px; 
+border: 1px solid white;
+  background: pink;
+  margin: 10px;
+}
 
 @media(max-width: 800px) {
   main {
     width: 100%;
   }
 
+  .format {
+    height: 100vh
+  }
 
 }
