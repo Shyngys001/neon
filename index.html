@@ -17,36 +17,41 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-<main>
-
-  <div class="out" id="out">
-    <h1 id="showMsg" class="neonText" >Write</h1>
-  </div>
-
-  <div class="format">
-<h2>Создайте свой неон</h2>
-<h3>Напишите то что вы хотите</h3>
-
-<input type="text" oninput="showText()" class="input" name="" id="input" value="" placeholder="Enter Name">
-
-<h3>Choose Font</h3>
-<button type="button" id="fonts1" name="button">Style Script</button>
-<button type="button"  id="fonts2" name="button">Palette</button>
-<button type="button" id="fonts3" name="button">Comfortaa</button>
-<button type="button" id="fonts4" name="button">Shadows</button>
-
-<h3>Choose Color</h3>
-<div class="colors">
-
-  <div class="favcolor1" id="favcolor1" ></div>
-  <div class="favcolor2" id="favcolor2" ></div>
-  <div class="favcolor3" id="favcolor3" ></div>
-  <div class="favcolor4" id="favcolor4" ></div>
-
-</div>
-
-  </div>
-</main>
+    <main>
+      <!-- The area to display the customized text -->
+      <div class="out" id="out">
+        <h1 id="showMsg" class="neonText">Write here</h1>
+      </div>
+  
+      <!-- The area for user input and customization options -->
+      <div class="format">
+        <h2>Create Your Neon</h2>
+        <h3>Write what you want</h3>
+  
+        <!-- Input field for the user to type their text -->
+        <input type="text" oninput="showText()" class="input" name="" id="input" value="" placeholder="Write here">
+  
+        <h3 style="color: aliceblue;">Choose Font</h3>
+        <!-- Buttons for font selection -->
+        <button type="button" id="fonts1" name="button">Style Script</button>
+        <button type="button"  id="fonts2" name="button">Palette</button>
+        <button type="button" id="fonts3" name="button">Comfortaa</button>
+        <button type="button" id="fonts4" name="button">Shadows</button>
+  
+        <h3 style="color: aliceblue;">Choose Color</h3>
+        <!-- Colored div elements for color selection -->
+        <div class="colors">
+          <div class="favcolor1" id="favcolor1"></div>
+          <div class="favcolor2" id="favcolor2"></div>
+          <div class="favcolor3" id="favcolor3"></div>
+          <div class="favcolor4" id="favcolor4"></div>
+          <div class="favcolor5" id="favcolor5"></div>
+          <div class="favcolor6" id="favcolor6"></div>
+          <div class="favcolor7" id="favcolor7"></div>
+          <div class="favcolor8" id="favcolor8"></div>
+        </div>
+      </div>
+    </main>
   <script type="text/javascript" src="app.js">
 
   </script>
