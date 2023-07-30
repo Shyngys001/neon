@@ -67,14 +67,14 @@ h1
   4% {
 
       text-shadow:
-      0 0 4px #353f38,
-      0 0 11px #353f38,
+      0 0 44px #353f38,
+      0 0 41px #353f38,
       0 0 19px #353f38,
-      0 0 4px #bc13fe,
-      0 0 8px #bc13fe,
-      0 0 9px #bc13fe,
-      0 0 10px #bc13fe,
-      0 0 10px #bc13fe;
+      0 0 4px #8d00ca,
+      0 0 8px #540101,
+      0 0 9px #5a2a6f,
+      0 0 10px #5f1b7c,
+      0 0 10px #8900c3;
 
   }
 
@@ -84,11 +84,11 @@ h1
     0 0 2px #353f38,
     0 0 4px #353f38,
     0 0 6px #353f38,
-    0 0 2px #bc13fe,
-    0 0 4px #bc13fe,
-    0 0 5px #bc13fe,
-    0 0 7px #bc13fe,
-    0 0 8px #bc13fe;
+    0 0 2px #6c009b,
+    0 0 14px #211a24,
+    0 0 15px #211a24,
+    0 0 17px #211a24,
+    0 0 18px #211a24;
 
 }
 
@@ -97,14 +97,15 @@ h1
 }
 .neonText {
   overflow: hidden;
+  font-size: 25px;
   color: blueviolet;
   text-shadow:
 
-    0 0 4px #bc13fe,
-    0 0 8px #bc13fe,
-    0 0 3px #bc13fe,
-    0 0 2px #bc13fe,
-    0 0 1px #bc13fe;
+    0 0 4px #211a24,
+    0 0 8px #211a24,
+    0 0 3px #211a24,
+    0 0 2px #211a24,
+    0 0 1px #211a24;
 }
 
 h2
@@ -330,5 +331,9 @@ h2, h3 {
 
   .main_part p {
     font-size: 20px;
+  }
+
+  .neonText {
+    font-size: 15px;
   }
 }
