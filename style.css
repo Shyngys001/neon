@@ -194,6 +194,7 @@ button {
   display: none;
   border-radius: 25px;
   flex-wrap: wrap;
+  gap: 12px;
 }
 
 #fonts { 
@@ -202,7 +203,7 @@ button {
 
 .fon > div { 
   width: 110px;
-  height: 60px;
+  height: 80px;
   background-color: #886a93;
   cursor: pointer;
 }
