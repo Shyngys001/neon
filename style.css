@@ -48,7 +48,6 @@ h1
   top:35%;
   font-size: 2.2rem;
   animation: pulsate 1.5s infinite alternate;
-  border: 0.2rem solid #fff;
   border-radius: 10PX;
   padding: 0.4em;
   box-shadow: 0 0 .2rem #fff,
@@ -65,7 +64,7 @@ h1
 
 @keyframes pulsate {
 
-  100% {
+  4% {
 
       text-shadow:
       0 0 4px #fff,
@@ -100,9 +99,7 @@ h1
   overflow: hidden;
   color: blueviolet;
   text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 2px #fff,
+
     0 0 4px #bc13fe,
     0 0 8px #bc13fe,
     0 0 9px #bc13fe,
