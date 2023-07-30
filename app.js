@@ -18,10 +18,78 @@ var fonts2 = document.getElementById("fonts2");
 var fonts3 = document.getElementById("fonts3");
 var fonts4 = document.getElementById("fonts4");
 
+
+let write = document.getElementById("write");
+let background = document.getElementById("background");
+let writen = document.getElementById("writen");
+
+let font = document.getElementById("font");
+let fonts = document.getElementById("fonts");
+
+let colors = document.getElementById("colors");
+let choose_color = document.getElementById("choose_color");
+
+let fons = document.getElementById("fons");
+let fon = document.getElementById("fon");
+let fon1 = document.getElementById("fon1");
+let fon2 = document.getElementById("fon2");
+let fon3 = document.getElementById("fon3");
+let fon4 = document.getElementById("fon4");
+
+
+
+fon1.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=db84d9d2abc3126676999bc7e819e0d4fcc6a873-5234741-images-thumbs&n=13')"
+})
+fon2.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=042f104dab0827eacaf47bf2274613d5cd33b214-9211905-images-thumbs&n=13')"
+})
+fon3.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=d78e29a1b94cb440bedbef20ff6e4a977b3b7298-8564680-images-thumbs&n=13')"
+})
+fon4.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=e7adcdc064c3d09e123362f337676e5502033b81-9612020-images-thumbs&n=13')"
+})
+
 //**********************
 // OnType Function
 // (To capture user_input)
 //**********************
+
+write.addEventListener("click", () => {
+  choose_color.style.display = "none";
+  fonts.style.display = "none";
+  writen.style.display = "block";
+  fon.style.display = "none";
+
+})
+
+background.addEventListener("click", () => {
+  choose_color.style.display = "block";
+  fonts.style.display = "none";
+  writen.style.display = "none";
+  fon.style.display = "none";
+
+})
+
+font.addEventListener("click", () => {
+  fonts.style.display = "block";
+  choose_color.style.display = "none";
+  writen.style.display = "none";
+  fon.style.display = "none";
+
+})
+
+fons.addEventListener("click", () => {
+  fonts.style.display = "none";
+  choose_color.style.display = "none";
+  writen.style.display = "none";
+  fon.style.display = "flex";
+
+})
+
+
+
 
 function showText() {
   var input = document.getElementById("input");
@@ -50,8 +118,8 @@ fonts4.addEventListener("click", () => {
 
 // Event Listeners for Color Buttons
 favcolor1.addEventListener("click", () => {
-  show.style.boxShadow = "0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #E62E2D, 0 0 0.8rem #E62E2D, 0 0 2.8rem #E62E2D, inset 0 0 1.3rem #E62E2D";
-  showMsg.style.color = "#E62E2D";
+  show.style.boxShadow = "0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem red, 0 0 0.8rem red, 0 0 2.8rem red, inset 0 0 1.3rem red";
+  showMsg.style.color = "red";
 });
 
 favcolor2.addEventListener("click", () => {
@@ -65,8 +133,8 @@ favcolor3.addEventListener("click", () => {
 });
 
 favcolor4.addEventListener("click", () => {
-  show.style.boxShadow = "0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #E72EE9, 0 0 0.8rem #E72EE9, 0 0 2.8rem #E72EE9, inset 0 0 1.3rem #E72EE9";
-  showMsg.style.color = "#E72EE9";
+  show.style.boxShadow = "0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem blueviolet, 0 0 0.8rem blueviolet, 0 0 2.8rem blueviolet, inset 0 0 1.3rem blueviolet";
+  showMsg.style.color = "blueviolet";
 });
 
 favcolor5.addEventListener("click", () => {
