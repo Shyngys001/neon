@@ -20,36 +20,60 @@
     <main>
       <!-- The area to display the customized text -->
       <div class="out" id="out">
-        <h1 id="showMsg" class="neonText">Write here</h1>
+        <h1 id="showMsg" class="neonText">Напиши</h1>
       </div>
   
       <!-- The area for user input and customization options -->
+      <div class="main_part">
+        <p id="write">Надпись
+        <p id="background">Цвета</p>
+        <p id="font">Стили</p>
+        <p id="fons">Фон</p>
+      </div>
       <div class="format">
-        <h2>Create Your Neon</h2>
-        <h3>Write what you want</h3>
-  
-        <!-- Input field for the user to type their text -->
-        <input type="text" oninput="showText()" class="input" name="" id="input" value="" placeholder="Write here">
-  
-        <h3 style="color: aliceblue;">Choose Font</h3>
-        <!-- Buttons for font selection -->
-        <button type="button" id="fonts1" name="button">Style Script</button>
-        <button type="button"  id="fonts2" name="button">Palette</button>
-        <button type="button" id="fonts3" name="button">Comfortaa</button>
-        <button type="button" id="fonts4" name="button">Shadows</button>
-  
-        <h3 style="color: aliceblue;">Choose Color</h3>
-        <!-- Colored div elements for color selection -->
-        <div class="colors">
-          <div class="favcolor1" id="favcolor1"></div>
-          <div class="favcolor2" id="favcolor2"></div>
-          <div class="favcolor3" id="favcolor3"></div>
-          <div class="favcolor4" id="favcolor4"></div>
-          <div class="favcolor5" id="favcolor5"></div>
-          <div class="favcolor6" id="favcolor6"></div>
-          <div class="favcolor7" id="favcolor7"></div>
-          <div class="favcolor8" id="favcolor8"></div>
+        <div id="writen">
+          <h3 id="write_what">Write what you want</h3>
+          <input type="text" oninput="showText()" class="input" name="" id="input" value="" placeholder="Напиши">
         </div>
+        
+        <div id="fonts">
+          <h3 style="color: aliceblue;" id="choose_font">Choose Font</h3>
+          <!-- Buttons for font selection -->
+          <div class="font_btn">
+            <button type="button" id="fonts1" name="button">Style Script</button>
+            <button type="button"  id="fonts2" name="button">Palette</button>
+            <button type="button" id="fonts3" name="button">Comfortaa</button>
+            <button type="button" id="fonts4" name="button">Shadows</button>
+          </div>
+          
+        </div>
+        
+        <div id="choose_color">
+          <h3 id="" style="color: aliceblue;">Choose Color</h3>
+          <!-- Colored div elements for color selection -->
+          <div id="colors">
+            <div class="favcolor1" id="favcolor1"></div>
+            <div class="favcolor2" id="favcolor2"></div>
+            <div class="favcolor3" id="favcolor3"></div>
+            <div class="favcolor4" id="favcolor4"></div>
+            <div class="favcolor5" id="favcolor5"></div>
+            <div class="favcolor6" id="favcolor6"></div>
+            <div class="favcolor7" id="favcolor7"></div>
+            <div class="favcolor8" id="favcolor8"></div>
+          </div>
+        </div>
+
+        <div class="fon" id="fon">
+          <div id="fon1"></div>
+          <div id="fon2"></div>
+          <div id="fon3"></div>
+          <div id="fon4"></div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+        
       </div>
     </main>
   <script type="text/javascript" src="app.js">
