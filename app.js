@@ -42,7 +42,7 @@ fon1.addEventListener("click", () => {
   out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=db84d9d2abc3126676999bc7e819e0d4fcc6a873-5234741-images-thumbs&n=13')"
 })
 fon2.addEventListener("click", () => {
-  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=042f104dab0827eacaf47bf2274613d5cd33b214-9211905-images-thumbs&n=13')"
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=e1867adeaa3be2253ed03e12b04fc9f1e0e878d3-6408724-images-thumbs&n=13')"
 })
 fon3.addEventListener("click", () => {
   out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=d78e29a1b94cb440bedbef20ff6e4a977b3b7298-8564680-images-thumbs&n=13')"
@@ -101,11 +101,11 @@ function showText() {
 
 // Event Listeners for Font Buttons
 fonts1.addEventListener("click", () => {
-  showMsg.style.fontFamily = "'Style Script', cursive";
+  showMsg.style.fontFamily = "'Pacifico', cursive";
 });
 
 fonts2.addEventListener("click", () => {
-  showMsg.style.fontFamily = "'Palette Mosaic', cursive";
+  showMsg.style.fontFamily = "'Caveat', cursive";
 });
 
 fonts3.addEventListener("click", () => {
@@ -113,7 +113,7 @@ fonts3.addEventListener("click", () => {
 });
 
 fonts4.addEventListener("click", () => {
-  showMsg.style.fontFamily = "'Shadows Into Light', cursive";
+  showMsg.style.fontFamily = "'Advent Pro', sans-serif";
 });
 
 // Event Listeners for Color Buttons
