@@ -379,4 +379,10 @@ h2, h3 {
   .main_part p {
     font-size: 20px;
   }
+  .fon > div { 
+    width: 90px;
+    height: 60px;
+    background-color: #886a93;
+    cursor: pointer;
+  }
 }
