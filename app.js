@@ -35,6 +35,9 @@ let fon1 = document.getElementById("fon1");
 let fon2 = document.getElementById("fon2");
 let fon3 = document.getElementById("fon3");
 let fon4 = document.getElementById("fon4");
+let fon5 = document.getElementById("fon5");
+let fon6 = document.getElementById("fon6");
+
 
 
 
@@ -50,7 +53,12 @@ fon3.addEventListener("click", () => {
 fon4.addEventListener("click", () => {
   out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=e7adcdc064c3d09e123362f337676e5502033b81-9612020-images-thumbs&n=13')"
 })
-
+fon5.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=472087fd67d9e8d174a1352e35a6e572c1d6702a-8803246-images-thumbs&n=13')"
+})
+fon6.addEventListener("click", () => {
+  out.style.backgroundImage = "url('https://avatars.mds.yandex.net/i?id=673103afccae6b5127609b7eb29c3e965f3cb693-4715150-images-thumbs&n=13')"
+})
 //**********************
 // OnType Function
 // (To capture user_input)
