@@ -206,6 +206,33 @@ button {
   cursor: pointer;
 }
 
+.fon :nth-child(1) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=db84d9d2abc3126676999bc7e819e0d4fcc6a873-5234741-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.fon :nth-child(2) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=e1867adeaa3be2253ed03e12b04fc9f1e0e878d3-6408724-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;  
+}
+
+.fon :nth-child(3) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=d78e29a1b94cb440bedbef20ff6e4a977b3b7298-8564680-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;  
+}
+
+.fon :nth-child(4) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=e7adcdc064c3d09e123362f337676e5502033b81-9612020-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;  
+}
 
 .main_part {
   cursor: pointer;
@@ -215,8 +242,11 @@ button {
 }
 
 .main_part p {
+  padding: 10px;
+  border: solid 1px blueviolet;
+  border-radius: 15px;
   color: blueviolet;
-  font-size: 30px;
+  font-size: 25px;
   transition: all 0.76s ease-in-out;
 }
 
@@ -235,6 +265,10 @@ button {
   align-items: flex-start;
   cursor: pointer;
   background-color: black;
+}
+
+#colors > div {
+  border-radius: 25px;
 }
 .favcolor1
 {
