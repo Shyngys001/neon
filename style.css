@@ -168,6 +168,7 @@ button {
   height: 50px;
   background-color: rgb(156, 50, 205);
   transition: all 0.54s ease-in-out;
+  color: black;
 }
 
 .font_btn button:hover {
