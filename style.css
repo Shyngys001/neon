@@ -166,7 +166,7 @@ button {
   border-radius: 15px;
   width: 90px;
   height: 50px;
-  background-color: rgba(156, 50, 205);
+  background-color: rgb(156, 50, 205);
   transition: all 0.54s ease-in-out;
 }
 
@@ -385,4 +385,14 @@ h2, h3 {
     background-color: #886a93;
     cursor: pointer;
   }
+  .font_btn button { 
+  border: none;
+  border-radius: 15px;
+  width: 70px;
+  font-size: 12px;
+  height: 40px;
+  background-color: rgb(156, 50, 205);
+  transition: all 0.54s ease-in-out;
+}
+
 }
