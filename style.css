@@ -233,6 +233,19 @@ button {
   background-size: cover;
   object-fit: cover;  
 }
+.fon :nth-child(5) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=472087fd67d9e8d174a1352e35a6e572c1d6702a-8803246-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;  
+}
+
+.fon :nth-child(6) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=673103afccae6b5127609b7eb29c3e965f3cb693-4715150-images-thumbs&n=13');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;  
+}
 
 .main_part {
   cursor: pointer;
